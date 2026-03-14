@@ -1,0 +1,13 @@
+ button {
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 16px;
+      cursor: pointer;
+    }
+     
+    button:disabled {
+      background-color: gray;  /* ← gris si stock = 0 */
+      cursor: not-allowed;
+    }
